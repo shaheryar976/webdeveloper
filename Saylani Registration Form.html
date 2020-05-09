@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/Saylani Registration Form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="logo"><a href="https://www.saylaniwelfare.com/" target="blank"><img src="./images/02.png" alt="saylani logo"></a></div>
+
+    
+        <h3> Student Registration Form </h3>
+
+
+    <form action="submit page.html">
+        <div class="container">
+            <table>
+                <tr>
+                    <td class="value">First Name</td>
+                    <td><input type="text" name="firstname" placeholder="Enter first name" maxlength="30" size="15">
+                    </td>
+                    <td>(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td class="value">Last Name</td>
+                    <td><input type="text" name="lastname" placeholder="Enter last name" maxlength="30" size="15"></td>
+                    <td>(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td class="value">Date of Birth</td>
+                    <td colspan="2"> <select name="dateofbirth">
+                            <option>Day:</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="month" id="">
+                            <option value="Month">Month:</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+
+                        <select name="Year" id="">
+                            <option value="Year">Year:</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td class="value">email id</td>
+                    <td><input type="email" name="lastname" placeholder="Enter email address" maxlength="30" size="15">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="value">mobile number</td>
+                    <td> <input type="text" name="mobile number" placeholder="Enter mobile number" maxlength="10"
+                            size="15"></td>
+                    <td>(10 digit number)</td>
+                </tr>
+                <tr>
+                    <td class="value">Gender</td>
+                    <td><label class="male" for="male">Male<input type="radio" name="gender" value="m"></label>
+                        <label for="Female">Female<input type="radio" name="gender" value="f"></label></td>
+                </tr>
+                <tr>
+                    <td class="value">address</td>
+                    <td colspan="2"><textarea name="address" id="" cols="35" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td class="value">city</td>
+                    <td><input type="text" name="city" placeholder="Enter city Name" maxlength="30"
+                            size="15"></td>
+                    <td>(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td class="value">pin code</td>
+                    <td> <input type="text" name="pin code" placeholder="Enter pin code" maxlength="6"
+                            size="15"></td>
+                    <td>(6 digit number)</td>
+                </tr>
+                <tr>
+                    <td class="value">state</td>
+                    <td><input type="text" name="state" placeholder="Enter state" maxlength="30"
+                            size="15"></td>
+                    <td>(max 30 character a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td class="value">country</td>
+                    <td><input type="text" name="country" placeholder="Enter country" maxlength="30"
+                            size="15"></td>
+                </tr>
+                <tr>
+                    <td class="value5">hobbies</td>
+                    <td colspan="2">
+                        Drawing<input type="checkbox" name="hobbies" value="Drawing">
+                        Singing<input type="checkbox" name="hobbies" value="Singing">
+                        Dancing<input type="checkbox" name="hobbies" value="Dancing">
+                        Sketching<input type="checkbox" name="hobbies" value="Sketching"></td>
+                </tr>
+                <tr>
+                    <td class="value6"></td>
+                    <td colspan="2">Others<input type="checkbox" name="hobbies" value="Others">
+                        <input type="text" name="others" maxlength="30" size="15"></td>
+                </tr>
+            </table>
+
+            <table>
+
+
+                <tr>
+                    <div class="value6">
+                        <td class="value1">qualification</td>
+                        <td>Sl.No</td>
+                        <td>Examination</td>
+                        <td class="value3">Board</td>
+                        <td class="value3">Percentage</td>
+                        <td class="value3">Year of Passing</td>
+                    </div>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="board" maxlength="10" size="15"></td>
+                    <td><input type="text" name="board" maxlength="2" size="15"></td>
+                    <td><input type="text" name="board" maxlength="4" size="15" align="center"></td>
+                </tr>
+                <tr>
+                    <td class="value1"></td>
+                    <td>2</td>
+                    <td>Class Xll</td>
+                    <td><input type="text" name="board" maxlength="10" size="15"></td>
+                    <td><input type="text" name="board" maxlength="2" size="15"></td>
+                    <td><input type="text" name="board" maxlength="4" size="15"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="board" maxlength="10" size="15"></td>
+                    <td><input type="text" name="board" maxlength="2" size="15"></td>
+                    <td><input type="text" name="board" maxlength="4" size="15"></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4</td>
+                    <td>Master</td>
+                    <td><input type="text" name="board" maxlength="10" size="15"></td>
+                    <td><input type="text" name="board" maxlength="2" size="15"></td>
+                    <td><input type="text" name="board" maxlength="4" size="15"></td>
+                </tr>
+                <tr class="newvalue">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>(10 Char Max)</td>
+                    <td>(upto 2 decimal)</td>
+                </tr>
+                <tr>
+                    <td class="value4">courses <br> applied for</td>
+                    <td colspan="3">
+                        <label for="male">B.CA<input type="radio" name="courses" value="B.CA"></label>
+                        <label for="male">B.Com<input type="radio" name="courses" value="B.Com"></label>
+                        <label for="male">B.Sc<input type="radio" name="courses" value="B.Sc"></label>
+                        <label for="male">B.A<input type="radio" name="courses" value="B.A"></label></td>
+                </tr>
+            </table>
+            <p class="logo">
+                <input type="submit" value="Submit" name="submit">
+                <input type="reset" value="Reset" name="reset">
+            </p>
+    </form>
+    </div>
+</body>
+
+</html>
